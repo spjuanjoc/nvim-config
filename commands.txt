@@ -1,6 +1,11 @@
+config file path
+
+~/.config/nvim/init.vim
+
 https://stsewd.dev/es/posts/neovim-installation-configuration/
 
 Copiar y pegar dentro y fuera de nvim:
+sudo apt install xclip
 
 Copiar al portapapeles:
 "+y
