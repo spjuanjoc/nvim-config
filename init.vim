@@ -12,7 +12,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set shiftround
-"set expandtab  " Insertar espacios en lugar de <Tab>s
+set expandtab  " Insertar espacios en lugar de <Tab>s
 
 set hidden  " Permitir cambiar de buffers sin tener que guardarlos
 
@@ -29,11 +29,10 @@ colorscheme evening  " Nombre del tema
 " Habilitar transparencia
 "highlight Normal guibg=none ctermbg=none 
 
-" lefticus
 " · : Ctrl+Shift+U+00B7
 " » : Ctrl+Shift+U+00BB
-" Show whitespaces and tabs
-set lcs=trail:·,tab:»·
+" Mostrar espacios y tabulaciones 
+set lcs=trail:·,tab:/> 
 set list
 
 set signcolumn=yes

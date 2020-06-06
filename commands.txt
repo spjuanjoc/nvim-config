@@ -7,4 +7,5 @@ Copiar al portapapeles:
 
 Pegar desde portapapeles:
 "+p
-Reload :e
+
+Reload :e o :e!
