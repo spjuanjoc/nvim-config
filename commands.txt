@@ -1,0 +1,10 @@
+https://stsewd.dev/es/posts/neovim-installation-configuration/
+
+Copiar y pegar dentro y fuera de nvim:
+
+Copiar al portapapeles:
+"+y
+
+Pegar desde portapapeles:
+"+p
+Reload :e
