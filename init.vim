@@ -37,3 +37,4 @@ set list
 
 set signcolumn=yes
 
+" set clipboard=xclip
