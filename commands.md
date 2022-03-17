@@ -1,53 +1,24 @@
-# nvim commands
+# Comandos VIM / NEOVIM 
 
 
-## Create a config file
+## Crear archivo de configuración
 
-Create it in the following path:
+- Crear `init.vim` en la ruta: `~/.config/nvim/`
 
-```
-~/.config/nvim/init.vim
-```
+Ver [stsewd](https://stsewd.dev/es/posts/neovim-installation-configuration/)
 
-See [stsewd](https://stsewd.dev/es/posts/neovim-installation-configuration/)
-
-Requires python3 and pip3
+Requiere python3 y pip3
 
 
-## Copiar y pegar dentro y fuera de nvim
-
-- Instalar xclip
-
-```
-sudo apt install xclip
-```
-
-- Copiar al portapapeles:
-
-```
-"+y
-```
-
-- Pegar desde portapapeles:
-
-```
-"+p
-```
-
-## Recargar archivo
-
-
-```
-:e
-
-:e!
-```
-
-## Seleccionar todo
-
-```
-ggVG
-```
-
-`gg` moves to first line. `V` starts visual mode. `G` jumps to last line thereby selecting from first to last line 
+| Comando                  | Descripción                                           |
+|:-------------------------|-------------------------------------------------------|
+| `sudo apt install xclip` | Instalar xclip                                        | 
+| `"+y`                    | Copiar al portapapeles                                | 
+| `"+p`                    | Pegar desde portapapeles                              | 
+| `V`                      | Entrar en modo visual y desplazarse para seleccionar. |
+| `Shift+V`                | Entrar en modo visual y seleccionar la línea actual.  | 
+| `:e`                     | Recargar si no hubo cambios                           |
+| `:e!`                    | Recargar si hubo cambios                              | 
+| `ggVG`                   | Seleccionar todo                                      |
+| `:%s/true/false/g`       | Reemplazar una palabra (e.g. _true_ por _false_)      | 
 
