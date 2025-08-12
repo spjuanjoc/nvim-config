@@ -5,7 +5,7 @@
 
 - Crear `init.vim` en la ruta: `~/.config/nvim/`
 
-Ver [stsewd](https://stsewd.dev/es/posts/neovim-installation-configuration/)
+Ver [stsewd](https://stsewd.dev/posts/neovim-installation-configuration/)
 
 Requiere python3 y pip3
 
