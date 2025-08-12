@@ -31,8 +31,8 @@ colorscheme evening  " Nombre del tema
 
 " · : Ctrl+Shift+U+00B7
 " » : Ctrl+Shift+U+00BB
-" Mostrar espacios y tabulaciones 
-set lcs=trail:·,tab:/> 
+" Mostrar espacios de inicio y final, y tabulaciones 
+set lcs=trail:·,lead:·,tab:/> 
 set list
 
 set signcolumn=yes
